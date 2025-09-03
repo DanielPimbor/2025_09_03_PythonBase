@@ -1,7 +1,0 @@
-print("Salutations!")
-greeting=input()
-print("Enter your firstname!")
-firstname=input()
-print("Enter your lastname!")
-lastname=input()
-print(f"Hello {firstname} {lastname}!")
