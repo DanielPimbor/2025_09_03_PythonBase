@@ -19,7 +19,8 @@ while i == '1':
         print('Nem szökőév.')
 
 
-    i = input('Újra : 1 , Bezárás : 2 =>')
+    i = input('Újra : 1 , Bezárás : 2 => ')
 
     if i != '1':
+        print('Viszlát!')
         break
