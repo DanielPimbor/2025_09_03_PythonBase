@@ -8,8 +8,11 @@ Kérj be egy pontszámot 0–100 között, és írd ki az érdemjegyet:
 
 while True:
     try:
-        pontszam = int(input('Add meg a pontszámodat: '))
-        break
+        pontszam = int(input('Add meg a pontszámodat (0-100): '))
+        if 0 <= pontszam <= 100:
+            break
+        else:
+            print('Helytelen pontszámot adtál meg. (0-100)')
     except ValueError:
         print('Nem pontszám.')
 
@@ -27,6 +30,3 @@ elif pontszam >= 80 and pontszam <= 89:
     
 elif pontszam >= 90 and pontszam <= 100:
     print('Jeles')
-
-elif pontszam > 100 or pontszam < 0:
-    print('Helytelen pontszámot adtál meg.')
