@@ -11,7 +11,7 @@ Thonny fejlesztői környezetben készíts egy rövid programot, amely
 
 
 PI = 3.14
-radius = int(input("Add meg a kör sugarát: "))
+radius = int(input("Add meg a kör sugarát cm-ben: "))
 kerulet = PI * 2 * radius
 terulet = PI * radius * radius
 
