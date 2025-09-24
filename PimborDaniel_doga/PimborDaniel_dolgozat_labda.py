@@ -19,7 +19,7 @@ szükséges_cm = átmérő * 2 * 3.14 * labdák_száma + 60 * labdák_száma
 print(f'Ennyi cm szalagra lesz szükség: {szükséges_cm} cm ')
 
 if float(szükséges_cm) > float(adott_cm):
-    print('Nincs elegendő szalagunk hozzá. ')
+    print('Nincs elegendő szalagunk hozzá.')
 
 elif float(szükséges_cm) < float(adott_cm):
     print(f'Van elég szalagunk hozzá és még marad {float(adott_cm) - float(szükséges_cm)} cm ')
